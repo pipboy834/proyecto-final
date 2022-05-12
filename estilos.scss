@@ -35,7 +35,7 @@
 }
 .h1{
     text-align: center;
-    color: #ebfffd;
+    color: white ;
     font-family: 'Hurricane', cursive;
     font-family: 'Roboto', sans-serif;
 
@@ -155,6 +155,13 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     margin-bottom: 2%;
+    background-color: white;
+}
+.h1-informacion{
+    color: #252421;
+    text-align: center;
+    font-size: small;
+    
 }
 
 
@@ -228,6 +235,9 @@
 
 #primero-info{
     grid-column: 1 / span 6;
+    
+    text-align: center;
+
 }
 #segundo-info{
     grid-column: 1 / 4;
